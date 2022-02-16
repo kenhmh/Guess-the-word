@@ -39,6 +39,8 @@ btn.addEventListener('click', function(){
             play = false;
             msg.innerHTML = `Congrats u got it correct. It is ${newWords}`;
             btn.innerHTML = "Next Question";
+            guess.classList.toggle('hidden');
+            guess.value = '';
         }
         else{
             msg.innerHTML = `Sorry is incorrect.plz try again
