@@ -31,6 +31,18 @@ btn.addEventListener('click', function(){
         btn.innerHTML = "Guess";
         guess.classList.toggle('hidden');
         newWords = createNewWords();
-        //randomWords = scrambleWords(newWords);
+        randomWords = scrambleWords(newWords.split("")).join("");
+        msg.innerHTML = randomWords;
+    }else{
+        let tempWord  = guess.value;
+        if (tempWord === newWords){
+            play = false;
+            msg.innerHTML = `Congrats u got it correct. It is ${newWords}`;
+            btn.innerHTML = "Next Question";
+        }
+        else{
+            msg.innerHTML = `Sorry is incorrect.plz try again
+                ${randomWords}`;
+        }
     }
 })
