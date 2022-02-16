@@ -20,7 +20,7 @@ body {
 }
 
 section {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +36,18 @@ section {
 .lottie{
   display: flex;
   justify-content: center;
+}
+
+.timer {
+  font-family: "Montserrat";
+  font-size: 30px;
+}
+
+.scores{
+  font-family: "Montserrat";
+  font-size: 30px;
+  display: flex;
+  align-items: center ;
 }
 
 .gameArea {
