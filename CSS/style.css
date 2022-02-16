@@ -24,6 +24,8 @@ section {
 
 .instructions {
   font-family: "Montserrat";
+  text-align: center;
+  background-color: aqua;
 }
 
 .gameArea {
