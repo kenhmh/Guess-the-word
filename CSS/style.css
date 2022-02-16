@@ -33,6 +33,11 @@ section {
   font-size: 20px;
 }
 
+lottie-player {
+  display: flex;
+  align-items: flex-end;
+}
+
 .gameArea {
   width: 50%;
   height: 400px;
