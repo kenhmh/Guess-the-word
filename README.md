@@ -1,6 +1,6 @@
-# Guess-the-word
-# ID ASG2
-Your Project's Name
+# Guess-the-word (ID asg 2)
+
+
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
 Essentially, this part is your sales pitch.
