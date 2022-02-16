@@ -20,7 +20,7 @@ body {
 }
 
 section {
-  height: 75vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ section {
 
 .lottie{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .gameArea {
