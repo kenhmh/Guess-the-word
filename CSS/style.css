@@ -22,6 +22,10 @@ section {
   background-color: aqua;
 }
 
+.instructions {
+  font-family: "Montserrat";
+}
+
 .gameArea {
   width: 50%;
   height: 400px;
