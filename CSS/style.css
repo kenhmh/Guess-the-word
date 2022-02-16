@@ -99,7 +99,9 @@ button.btn{
 
 button.btn:hover, button.btn:focus, button.btn:active{
     letter-spacing: 0.125rem;
-    word-spacing: 0.2rem;
+    word-spacing: 0rem;
+    background-color: black;
+    color: white;
 }
 
 .hidden{
