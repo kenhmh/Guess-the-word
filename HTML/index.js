@@ -48,18 +48,23 @@ btn.addEventListener('click', function(){
     }
 })
 
-const startingMinutes = 10;
+const startingMinutes = 5;
 let time= startingMinutes * 60;
 
 const countdownEl = document.getElementById('countdown');
 
 
-setInterval(updateCountdown, 1000);
+let refreshIntervalId = setInterval(updateCountdown, 1000);//update every 1 second
+
 
 function updateCountdown() {
     const minutes = Math.floor(time/60);
     let seconds = time % 60;
 
     countdownEl.innerHTML = `${minutes}:${seconds}`
+
     time--;
+
+    if (time < 0) { //stop the setInterval when time = 0 to avoid negative time
+        clearInterval(refreshIntervalId);
 }

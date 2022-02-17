@@ -26,6 +26,10 @@ section {
   align-items: center;
 }
 
+#countdown{
+  font-family: "Montserrat";
+}
+
 .instructions {
   font-family: "Montserrat";
   margin-top: 30px;
