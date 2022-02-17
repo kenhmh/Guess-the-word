@@ -48,12 +48,13 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 # Credits
-
 https://www.nytimes.com/games/wordle/index.html
+
+https://lottiefiles.com/68785-good-emoji
 
 # Content
 The text for section Y was copied from the Wikipedia article Z
 # Media
-The photos used in this site were obtained from ...
+The emoji animation was obtained from lottie animation files 
 # Acknowledgements
 We received inspiration for this app called Wordscapes and game called Wordle. As the popularity of wordle is rising, we decided to do a game related to word plays 
