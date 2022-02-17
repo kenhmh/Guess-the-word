@@ -6,7 +6,7 @@ let newWords = "";
 let randWords = "";
 // store all the word
 let sWords = ['comfortable','succeed','deranged',
-'double','explain','vanish','massive','thoughtful','delight','explode','cooking','incredible'];
+'double','explain','vanish','massive','thoughtful','delight','explode','cooking','incredible','extraordinary','starbucks',];
 
 const createNewWords = () => {
     let ranNum = Math.floor(Math.random()* sWords.length);
