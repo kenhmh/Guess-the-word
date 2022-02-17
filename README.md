@@ -57,4 +57,4 @@ The text for section Y was copied from the Wikipedia article Z
 # Media
 The emoji animation was obtained from lottie animation files 
 # Acknowledgements
-We received inspiration for this app called Wordscapes and game called Wordle. As the popularity of wordle is rising, we decided to do a game related to word plays 
+We received inspiration from this app called Wordscapes and a game called Wordle. As the popularity of wordle is rising, we decided to do a game that is similar to wordle and related to word plays 
