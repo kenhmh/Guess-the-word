@@ -1,8 +1,7 @@
 # Guess-the-word (ID asg 2)
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+Our project is about a word game. The letters of the word would be mixed up and the user would have to umscramble the letters to form the word. 
 
-Essentially, this part is your sales pitch.
 
 # Design Process
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
