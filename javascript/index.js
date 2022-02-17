@@ -37,14 +37,13 @@ btn.addEventListener('click', function(){
         let tempWord  = guess.value;
         if (tempWord === newWords){
             play = false;
-            msg.innerHTML = `Congrats you solved it! It is ${newWords}`;
+            msg.innerHTML = `Congrats you solved it! The word is ${newWords}`;
             btn.innerHTML = "Next Question";
             guess.classList.toggle('hidden');
             guess.value = '';
         }
         else{
-            msg.innerHTML = `Sorry, it is incorrect. Try again
-                ${randomWords}`;
+            msg.innerHTML = `Sorry, it is incorrect. Try again`;
         }
     }
 })
