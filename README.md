@@ -48,9 +48,9 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 # Credits
-https://www.nytimes.com/games/wordle/index.html
+https://www.nytimes.com/games/wordle/index.html (wordle)
 
-https://lottiefiles.com/68785-good-emoji
+https://lottiefiles.com/68785-good-emoji (lottie animation)
 
 # Content
 The text for section Y was copied from the Wikipedia article Z
