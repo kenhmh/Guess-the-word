@@ -5,8 +5,8 @@ let play = false;
 let newWords = "";
 let randWords = "";
 // store all the word
-let sWords = ['comfortable','succeed','deranged','brillant','villan','starbucks','symptoms',
-'double','explain','vanish','massive','thoughtful','delight','explode','cooking','incredible','extraordinary'];
+let sWords = ['comfortable','succeed','deranged',
+'double','explain','vanish','massive','thoughtful','delight','explode','cooking','incredible','extraordinary','brillant','villan','starbucks','symptoms',];
 
 const createNewWords = () => {
     let ranNum = Math.floor(Math.random()* sWords.length);
