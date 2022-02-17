@@ -14,7 +14,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 # Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-  Start game button - When loading the page a start game button can be seen. Once the user presses the start button, the game starts by showing the scrambled word.
+  Start game button - When entering the page a start game button can be seen. Once the user presses the start button, the game starts by showing the scrambled word.
   
   timer - the countdown starts once the page is loaded. Users would have to solve as many words as possible within the time limit (3 minutes)
 
