@@ -47,3 +47,8 @@ btn.addEventListener('click', function(){
         }
     }
 })
+
+const startingMinutes = 10;
+let time = startingMinutes * 60;
+
+const countdown

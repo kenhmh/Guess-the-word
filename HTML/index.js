@@ -37,14 +37,29 @@ btn.addEventListener('click', function(){
         let tempWord  = guess.value;
         if (tempWord === newWords){
             play = false;
-            msg.innerHTML = `Congrats you solved it! It is ${newWords}`;
+            msg.innerHTML = `Congrats you solved it! The word is ${newWords}`;
             btn.innerHTML = "Next Question";
             guess.classList.toggle('hidden');
             guess.value = '';
         }
         else{
-            msg.innerHTML = `Sorry, it is incorrect. Try again
-                ${randomWords}`;
+            msg.innerHTML = `Sorry, it is incorrect. Try again`;
         }
     }
 })
+
+const startingMinutes = 10;
+let time= startingMinutes * 60;
+
+const countdownEl = document.getElementById('countdown');
+
+
+setInterval(updateCountdown, 1000);
+
+function updateCountdown() {
+    const minutes = Math.floor(time/60);
+    let seconds = time % 60;
+
+    countdownEl.innerHTML = `${minutes}:${seconds}`
+    time--;
+}
