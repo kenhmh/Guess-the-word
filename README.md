@@ -9,6 +9,7 @@ Provide us insights about your design process, focusing on who this website is f
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
+
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 # Features
@@ -16,7 +17,9 @@ In this section, you should go over the different parts of your project, and des
 
   Start game button - When entering the page a start game button can be seen. Once the user presses the start button, the game starts by showing the scrambled word.
   
-  timer - the countdown starts once the page is loaded. Users would have to solve as many words as possible within the time limit (3 minutes)
+  timer - the countdown starts once the page is loaded. Users would have to solve as many words as possible within the time limit (3 minutes). After the time is up, the game is over
+  
+  score - There is a scoring system for the game. Each time the user gets a word correct, the score is updated
 
 # Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
