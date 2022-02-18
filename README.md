@@ -52,6 +52,10 @@ https://www.nytimes.com/games/wordle/index.html (wordle)
 
 https://lottiefiles.com/68785-good-emoji (lottie animation)
 
+https://youtu.be/x7WJEmxNlEs (guide for timer)
+
+https://www.w3schools.com/
+
 Learn how to do certain code using reference to some youtube video where they will teach
 
 # Content
