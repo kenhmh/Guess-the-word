@@ -82,7 +82,7 @@
     let tempWord  = guess.value;
     if (tempWord === newWords) {
         scores += 1;
-        document.getElementsByClassName('score').value = scores
+        document.getElementsByClassName('scores').value = scores
       } 
 
   }
