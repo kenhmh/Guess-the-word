@@ -7,7 +7,7 @@
     let randomWords = "";
     var scores = 0;
     // store all the word
-        let sWords = ['comfortable','succeed','deranged',
+        let sWords = ['comfortable','succeed','deranged','aroma','expect','nothing',
 'double','explain','vanish','massive','thoughtful','delight','explode','cooking','incredible','extraordinary','starbucks'];
 
     const createNewWords = () => {
@@ -89,5 +89,4 @@
   }
     function updateScore(){
         $("#Score").text(scores);
-        scores.innerHTML = `${scores}`
     }
