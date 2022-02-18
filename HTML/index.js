@@ -54,7 +54,7 @@
     }
 })
 
-    const startingMinutes = 3;
+    const startingMinutes = 1;
     let time= startingMinutes * 60;
 
     const countdownEl = document.getElementById('countdown');
@@ -73,16 +73,18 @@
 
     if (time < 0) { //stop the setInterval when time = 0 to avoid negative time
         clearInterval(refreshIntervalId);
+        countdownEl.innerHTML = `END!`
+        btn.innerHTML = `Game Over`
+
     }
 }
 
 
     function answer() {
-    var scores = 0;
     let tempWord  = guess.value;
     if (tempWord === newWords) {
         scores += 1;
-        document.getElementsByClassName('scores').value = scores
+        document.getElementsByClassName('scores').value = scores;
     
     } 
 
