@@ -52,6 +52,8 @@ https://www.nytimes.com/games/wordle/index.html (wordle)
 
 https://lottiefiles.com/68785-good-emoji (lottie animation)
 
+Learn how to do certain code using reference to some youtube video where they will teach
+
 # Content
 The text for section Y was copied from the Wikipedia article Z
 # Media
