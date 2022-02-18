@@ -83,9 +83,11 @@
     if (tempWord === newWords) {
         scores += 1;
         document.getElementsByClassName('scores').value = scores
-      } 
+    
+    } 
 
   }
-  function updateScore(){
-    $("#Score").text(scores);
-}
+    function updateScore(){
+        $("#Score").text(scores);
+        scores.innerHTML = `${scores}`
+    }
