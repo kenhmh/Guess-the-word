@@ -10,7 +10,9 @@ For our design, we decided to keep it simple as too many colours could ruin the 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+Eg. As a user type, I want to perform an action, so that I can achieve a goal.
+
+As a user, in order to guess a word correctly, I would have to type in the input bar my guesses. If the guess is correct, i can move on to the next word that i have to umscramble
 
 
 
