@@ -64,31 +64,33 @@
 
 
     function updateCountdown() {
-    const minutes = Math.floor(time/60);
-    let seconds = time % 60;
+        const minutes = Math.floor(time/60);
+        let seconds = time % 60;
 
-    countdownEl.innerHTML = `${minutes}:${seconds}`
+        countdownEl.innerHTML = `${minutes}:${seconds}`
 
-    time--;
+        time--;
 
     if (time < 0) { //stop the setInterval when time = 0 to avoid negative time
         clearInterval(refreshIntervalId);
         countdownEl.innerHTML = `END!`
         btn.innerHTML = `Game Over`
+        msg.innerHTML = `Game has ended`
 
     }
 }
 
 
     function answer() {
-    let tempWord  = guess.value;
-    if (tempWord === newWords) {
-        scores += 1;
-        document.getElementsByClassName('scores').value = scores;
+        var scores = 0;
+        let tempWord  = guess.value;
+        if (tempWord === newWords) {
+            scores += 1;
+            document.getElementsByClassName('scores').value = scores;
     
-    } 
+        } 
 
-  }
+    }
     function updateScore(){
         $("#Score").text(scores);
     }
