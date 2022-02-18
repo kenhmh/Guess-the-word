@@ -17,7 +17,7 @@ In this section, you should go over the different parts of your project, and des
 
   Start game button - When entering the page a start game button can be seen. Once the user presses the start button, the game starts by showing the scrambled word.
   
-  timer - the countdown starts once the page is loaded. Users would have to solve as many words as possible within the time limit (3 minutes). After the time is up, the game is over
+  timer - the countdown starts once the page is loaded. Users would have to solve as many words as possible within the time limit (1 minute). After the time is up, the game is over
   
   score - There is a scoring system for the game. Each time the user gets a word correct, the score is updated
 
