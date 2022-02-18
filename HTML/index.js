@@ -46,7 +46,7 @@
             guess.value = '';
             updateScore()
             scores +=1   
-            document.getElementsByClassName('score').innerHTML = scores;
+            document.getElementsByClassName('scores').innerHTML = scores;
         }
         else{
             msg.innerHTML = `Sorry, it is incorrect, Try again. The word is ${randomWords}`;
